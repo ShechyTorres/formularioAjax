@@ -1,2 +1,2 @@
 # Formulario con Ajax
-[Página HTML](index.html)
+[Página WEB](https://shechytorres.github.io/formularioAjax/)
