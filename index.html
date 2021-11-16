@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="estilos.css">
+  <title>FormularioAjax</title>
+</head>
+
+<body>
+  <main>
+    <div class="izquierda">
+      <h1>Formulario</h1>
+      <form name="formulario">
+        <label for="nombre">Nombre</label>
+        <input id="nombre" type="text" name="nombre">
+        <br>
+        <label for="trabajo">Trabajo</label>
+        <input id="trabajo" type="text" name="trabajo">
+        <br>
+        <input onclick="guardarUsuario()" type="button" value="Guardar" />
+      </form>
+    </div>
+    <div class="derecha">
+      <h3>Resultado</h3>
+      <strong>ID:</strong>
+      <span id="respuestaID"></span>
+      <br>
+      <strong>Nombre:</strong>
+      <span id="respuestaNombre"></span>
+      <br>
+      <strong>Trabajo:</strong>
+      <span id="respuestaTrabajo"></span>
+      <br>
+      <strong>Creado:</strong>
+      <span id="respuestaCreado"></span>
+      <br> <br>
+      <div id="consola"></div>
+    </div>
+  </main>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script src="codigo.js"></script>
+</body>
+
+</html>
