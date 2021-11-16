@@ -1,2 +1,2 @@
-# Formulario con Ajax Ajax
-[Página](index.html)
+# Formulario con Ajax
+[Página HTML](index.html)
